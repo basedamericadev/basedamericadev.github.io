@@ -1,0 +1,166 @@
+@media (max-width: 1000px) {
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #FBF8BE;
+        margin: 0;
+        padding: 0px;
+    }
+
+    header {
+        background-color: #0052FF;
+        color: white;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    footer {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .container {
+        display: block;
+        width: 320px;
+        height: auto;
+    }
+
+    .twitterpost {
+        margin-top: 2%;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .main_logo {
+        margin-left: auto;
+    }
+    .flag_new {
+        display: none;
+    }
+    
+    
+    .flag_new2 {
+        display: none;
+    }
+    @keyframes growAndMove {
+        0% {
+            width: 0;
+            height: 0;
+            opacity: 0;
+        }
+
+        100% {
+            width: 300px;
+            /* Final width */
+            height: 300px;
+            /* Final height */
+            opacity: 1;
+        }
+    }
+
+    .socials {
+        margin-top: 5%;
+    }
+
+    .flag1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 60px;
+    }
+
+    .flag2 {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 30px;
+        transform: scaleX(-1);
+    }
+
+    .about {
+        width: 85%;
+    }
+    .baselogo{
+        display: none;
+    }
+    .socials {
+        display: none;
+    }
+
+    .socials_mobile {
+        margin-top: 2%;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+        border-style: solid;
+        border-color: #ffffff;
+        border-width: 5px;
+        border-radius: 15px;
+        padding: 5px;
+        background-color: #0052FF;
+        animation: slideUp 2s forwards;
+        /* Animation */
+        opacity: 0;
+        /* Start invisible */
+        align-items: center;
+        display: flex;
+        /* Enable Flexbox */
+        justify-content: center;
+        /* Center horizontally */
+        align-items: center;
+        /* Center vertically */
+        width: 85%;
+    }
+
+    .socials_mobile a {
+        text-decoration: none;
+    }
+
+    .socials a {
+        text-decoration: none;
+    }
+
+    .tokenomics {
+        width: 85%;
+    }
+
+    .swap {
+        width: 85%;
+    }
+    .copycontract h3{
+        font-size: 9px;
+    }
+    .tokenomics .transparent_cat {
+        position: absolute;
+        top: 20px;
+        right: 0;
+        width: 110px;
+    }
+    .tokenomics .transparent_cat2 {
+        position: absolute;
+        top: 20px;
+        left: 0;
+        width: 110px;
+    }
+    .tokenomics h1{
+        font-size: 35px;
+    }
+    .copybutton {
+        margin: 5px;
+        border-radius: 5px;
+        font-weight: bolder;
+        border-style: ridge;
+        border-color: rgb(255, 255, 255);
+        color: rgb(255, 255, 255);
+        background-color: #0052FF;
+        cursor: pointer;
+        font-size: 15px;
+        padding-top: 0;
+    }
+    
+    .copybutton:hover {
+        border-color: black;
+        color: black;
+        background-color: white;
+    }
+}
